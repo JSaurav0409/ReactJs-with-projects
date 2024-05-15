@@ -7,8 +7,6 @@
 
         return (
         <>
-                <div>Todos</div>
-
                 {/*
                 * {todos.map((todo) =>(
                 <li key ={todo.id}>

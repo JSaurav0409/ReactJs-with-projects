@@ -1,8 +1,8 @@
 # Steps to use Redux
 
-1. Create Store in src folder create an app folder and add file store.js , import & export configureStore from @reduxjs/toolkit.
+1. Create Store: In src folder create an app folder and add file store.js , import & export configureStore from @reduxjs/toolkit.
 
-2. Create Reducers in src folder create a feature folder than create a todo folder inside the feature folder create file with any name just add Slice in last (REDUX NAMING CONVENTION).
+2. Create Reducers: In src folder create a feature folder than create a todo folder inside the feature folder create file with any name just add Slice in last (REDUX NAMING CONVENTION).To create slice three things requires [name, initialSate, reducers]
  - import necessary packages like {createSlice, nanoid} from @reduxjs/toolkit.
  - create initial state using initialState keyword
  - Create a slice by calling the createSlice() function and passing an object with three properties:
